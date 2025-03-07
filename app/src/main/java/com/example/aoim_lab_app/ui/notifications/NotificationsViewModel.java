@@ -1,4 +1,4 @@
-package com.example.aoim_lab_project.ui.notifications;
+package com.example.aoim_lab_app.ui.notifications;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

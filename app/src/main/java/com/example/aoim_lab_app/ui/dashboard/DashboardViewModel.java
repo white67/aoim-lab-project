@@ -1,4 +1,4 @@
-package com.example.aoim_lab_project.ui.dashboard;
+package com.example.aoim_lab_app.ui.dashboard;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

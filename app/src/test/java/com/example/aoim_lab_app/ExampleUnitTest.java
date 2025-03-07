@@ -1,4 +1,4 @@
-package com.example.aoim_lab_project;
+package com.example.aoim_lab_app;
 
 import org.junit.Test;
 

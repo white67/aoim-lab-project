@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "aoim-lab-project"
+rootProject.name = "aoim-lab-app"
 include(":app")
  

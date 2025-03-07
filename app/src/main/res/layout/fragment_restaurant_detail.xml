@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/restaurant_image_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:contentDescription="Restaurant Image" />
+
+    <TextView
+        android:id="@+id/restaurant_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restaurant Name"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/restaurant_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:paddingBottom="5dp"
+        android:text="Address"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/restaurant_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/star"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dp"
+        android:text="Rating"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/restaurant_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description of the restaurant"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/favorite_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:backgroundTint="#FF0000"
+        android:contentDescription="Add to Favorites"
+        android:padding="15dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/heart_selector" />
+
+    <Button
+        android:id="@+id/reserve_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make a reservation"/>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Home"/>
+</LinearLayout>

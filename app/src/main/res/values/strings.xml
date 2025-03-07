@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">aoim-lab-project</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">aoim-lab-app</string>
+    <string name="title_home">Find Place</string>
+    <string name="title_dashboard">Favorites</string>
+    <string name="title_notifications">Reservations</string>
 </resources>
